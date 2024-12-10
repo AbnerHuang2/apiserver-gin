@@ -7,11 +7,11 @@ jwt-secret: AC59075B964B0715
 language: zh # 项目语言，en或者zh
 # 数据库配置（mysql）
 database:
-  dbname: apiserver_gin #数据库名称
-  host: 127.0.0.1 #数据库服务地址
+  dbname: skitii_sql_pub #数据库名称
+  host: mysql.sqlpub.com #数据库服务地址
   port: 3306 #数据库端口
-  username: root #用户名(实际线上不可使用root,请授权一个账户)
-  password: kudl2023*@ #密码
+  username: skitii #用户名(实际线上不可使用root,请授权一个账户)
+  password: VWARKd8tTDDoAWve #密码
   maximum-pool-size: 50  #连接池最大连接数
   maximum-idle-size: 10  #连接池最大空闲数
 # 缓存redis配置
